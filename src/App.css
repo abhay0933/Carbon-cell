@@ -11,3 +11,25 @@ box-sizing: border-box;
   
   /* flex-direction: column; */
 }
+
+::-webkit-scrollbar {
+  width: 4px;
+  border: 1px solid #d5d5d5;
+  height: 50px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0;
+  background: #25e054;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background: #050505;
+  height: 50px; 
+}
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #0ae627;
+} */
