@@ -31,11 +31,11 @@ const CryptocurrencyPrices = () => {
             <div className="card" key={currency}>
                 <div className="currencyimg">
                 <p className='currencySymbol' style={{backgroundColor:`${COLORS[index % COLORS.length]}`}}> <span dangerouslySetInnerHTML={{__html: prices[currency].symbol}} /></p>
-                <h3>{currency}</h3>
+                <h3 style={{color:`${COLORS[index % COLORS.length]}`}}>{currency}</h3>
                 </div>
                 <div className='currencyRate'>
-                <p> {prices[currency].description}</p>
-              <p>Rate: {prices[currency].rate}</p>
+                <p style={{color:`${COLORS[index % COLORS.length]}`}}> {prices[currency].description}</p>
+              <p style={{color:`${COLORS[index % COLORS.length]}`}}>Rate: {prices[currency].rate}</p>
               </div>
             </div>
           ))}
