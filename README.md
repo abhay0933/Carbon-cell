@@ -1,3 +1,8 @@
+## Screenshort
+
+![Screenshot 2024-04-02 121934](https://github.com/abhay0933/Carbon-cell/assets/127731916/b6323579-20fc-4c41-9dbd-7dbdce2a094c)
+
+
 ## Overview
 Carbon Cell is a website dedicated to providing information about carbon emissions, population data, and cryptocurrency prices. It utilizes APIs to fetch real-time data and provides a seamless experience for users interested in environmental issues and cryptocurrency markets.
 
