@@ -3,18 +3,26 @@
     flex-wrap: wrap;
     /* gap: 20px */
     justify-content: space-around;
+    margin-top: 10px;
   }
   .card {
-    background-color: #343432;
+    background-color: #171717;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 20%;
+    width: 30%;
     display: flex ;
     flex-direction: column;
     gap: 4px;
   }
+
+  /* .cryptoPrices {
+    background:linear-gradient(#6adf4a, #dee70d);
+    -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+  } */
+
  .currencyimg {
     display: flex;
     align-items: center;
@@ -37,6 +45,7 @@
     align-items: flex-start;
     gap: 5px;
  }
+
 
  @media (max-width: 768px) {
     .card {

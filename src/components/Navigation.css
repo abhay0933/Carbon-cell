@@ -1,5 +1,5 @@
 .sidebarContainer {
-    background-color: #2C2D31;
+    background-color:#171717;
     padding: 20px;
     display: flex ;
     flex-direction: column;
@@ -83,7 +83,7 @@ ul {
 }
 
 .profileImg img {
-    width: 50px;
+    width: 40px;
 }
 
 .profileName p {
@@ -99,6 +99,7 @@ ul {
     background-color: #50524F;
     padding: 20px;
     border-radius: 10px;
+    gap: 7px;
 }
 
 .hide {

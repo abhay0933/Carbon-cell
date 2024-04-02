@@ -53,7 +53,7 @@ const Chart = () => {
     };
 
     return (
-        <div>
+        <div >
         <h3>USA Population Data</h3>
         <div  className='USApopulationChart'>
             

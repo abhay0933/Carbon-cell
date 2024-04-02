@@ -24,7 +24,7 @@ const CryptocurrencyPrices = () => {
 
   return (
     <div>
-      <h2>Cryptocurrency Prices</h2>
+      <h4 className='cryptoPrices'>Cryptocurrency Prices</h4>
       {prices ? (
         <div className="container">
           {Object.keys(prices).map((currency, index) => (
