@@ -1,0 +1,107 @@
+.sidebarContainer {
+    background-color: #2C2D31;
+    padding: 20px;
+    display: flex ;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    gap: 20px; 
+    height: 100%;
+    width: 250px;
+}
+.logoContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid blue; */
+    
+}
+
+.green {
+    color: green;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px;
+    text-decoration: none;
+}
+
+.containerHide{
+    background-color: #2C2D31;
+    padding: 20px;
+    display: flex ;
+    flex-direction: column;
+    gap: 20px; 
+    height: 100%;
+    width: 50px;
+}
+
+.menubtn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 25px;
+}
+
+.sidebarsearch  {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    background-color: #6C6D70;
+    padding: 7px;
+    border-radius: 6px;
+    color: white;
+    gap: 10px;
+}
+
+.sidebarContainer input {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(253, 251, 251);
+}
+
+ul {
+    list-style: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.navbarList {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 6px;
+    padding: 6px;
+    text-decoration: none;
+}
+
+.settingOption {
+    margin-top: 56px;
+}
+
+.profileImg img {
+    width: 50px;
+}
+
+.profileName p {
+    color: white;
+    font-size: 10px;
+}
+
+.profileSection {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: #50524F;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hide {
+    display: none;
+}
+

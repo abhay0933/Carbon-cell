@@ -1,0 +1,9 @@
+.connectWalletbtn {
+    padding: 10px;
+    background-color: rgb(94,248,52);
+    color:  white;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-size: large;
+}
